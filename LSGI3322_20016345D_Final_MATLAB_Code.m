@@ -200,7 +200,7 @@ for i = 1:Epoch_OBS
 q = 1;
 for b = 1:No_Epoch_Nav
 if isequal(Compare_Nav_PRN(1,b),Compare_Obs_PRN(1,i))
-RowOfSamePRN(q,i) = b;
+RowOfSamePRN(q,i) =b;
 q = q + 1;
 end
 end
